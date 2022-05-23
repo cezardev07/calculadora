@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+  
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:rgb(21, 24, 85);
+}
+
+ul li{
+  list-style: none;
+}
+a{
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #0c68d0;
+  padding: 12px 15px;
+  border-radius: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  border-style: inset;
+  border-color: rgb(11, 11, 11);
+}
+
+input{
+  color:#fff;
+  padding:20px;
+  outline:none;
+  font-size: 30px;
+  font-family: 'Bebas Neue', cursive;
+  border-radius: 25%;
+  cursor: pointer;
+}
+
+.maincolor{
+  background-color: #000;
+}
+
+.num{
+  width: 64px;
+  height: 67px;
+  margin: 2px;
+}
+
+.text{
+  width: 160px;
+  height: 26px;
+  border-radius: 22px;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.text1{
+  width: 24px;
+  height: 26px;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom:10px;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #ffffff;
+  
+}
+
+.main{
+  display: inline-block;
+
+}
+
+.azul{
+  background-color:#0cd0cd;
+}
+
+.rosa{
+  background-color:#cf1596;
+}
+
+.verde{
+  background-color:#aad800;
+}
+
+.roxo{
+  background-color:#8c52f0
+}
+
+.amarelo{
+  background-color:#fcb700
+}
+  
+.num:hover
+{
+    background-color: red;
+}
+
+.text1:hover{
+    background-color: #eaa608;
+}
+
+a:hover{
+  background-color: rgb(255, 0, 55);
+}
